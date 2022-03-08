@@ -142,22 +142,42 @@ a {
 }
 
 .news-list {
-  display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
+.news-item {
+  padding-left: 10px;
+}
+
 .news-list-item {
   display: flex;
+  padding-left: 10px;
+  align-items: center;
   border: 1px solid black;
   background-color: white;
-  padding: 3px 10px;
   text-decoration: none;
   width: 100%;
   height: 50px;
-  margin: 2px o;
+  margin: 10px;
   text-align: left;
   font-size: 14px;
   color: black;
+}
+
+.news-ttl {
+  font-size: 30px;
+}
+
+.news-btn {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  width: 170px;
+  height: 35px;
+  background-color: #DD0000;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
