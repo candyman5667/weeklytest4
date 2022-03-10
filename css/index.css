@@ -141,12 +141,14 @@ a {
   justify-content: space-between;
   color: white;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .news-list {
   padding: 0;
   margin: 0;
   list-style: none;
+  width: 100%;git
 }
 
 .news-item {
@@ -161,7 +163,7 @@ a {
   background-color: white;
   text-decoration: none;
   width: 100%;
-  height: 70px;
+  height: 50px;
   margin: 10px;
   text-align: left;
   font-size: 14px;
@@ -170,6 +172,10 @@ a {
 
 .news-ttl {
   font-size: 30px;
+}
+
+.news-content {
+  width: 1250px;
 }
 
 .news-btn {
